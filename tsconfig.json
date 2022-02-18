@@ -2,7 +2,21 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src/app",
+    "paths": {
+      "@lgm-erp/*": [
+        "@lgm-erp/*"
+      ],
+      "@lgm-erp-core/*": [
+        "@lgm-erp/core/*"
+      ],
+      "@lgm-web/*": [
+        "@lgm-web/*"
+      ],
+      "@lgm-web-core/*": [
+        "@lgm-web/core/*"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
