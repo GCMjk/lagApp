@@ -10,6 +10,9 @@
       "@lgm-erp-core/*": [
         "@lgm-erp/core/*"
       ],
+      "@lgm-erp-shared/*": [
+        "@lgm-erp/shared/*"
+      ],
       "@lgm-web/*": [
         "@lgm-web/*"
       ],
