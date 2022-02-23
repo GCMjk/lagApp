@@ -6,7 +6,6 @@ import { SharedModule } from '@lgm-erp-shared/shared.module';
 import { IConfig, NgxMaskModule } from 'ngx-mask';
 
 import { RrhhRoutingModule } from './rrhh-routing.module';
-import { RegisterComponent } from './register/register.component';
 import { RrhhComponent } from './rrhh.component';
 
 export const NGX_MASK_OPTIONS: Partial<IConfig> = {
@@ -15,7 +14,6 @@ export const NGX_MASK_OPTIONS: Partial<IConfig> = {
 
 @NgModule({
   declarations: [
-    RegisterComponent,
     RrhhComponent
   ],
   imports: [
